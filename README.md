@@ -33,7 +33,7 @@ To get SimpleNotesApp2024 up and running on your local machine for development a
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/yourusername/SimpleNotesApp2024.git
+    git clone https://github.com/pmoschos/SimpleNotesApp2024.git
     ```
 
 2. **Open the Project** in Android Studio.
@@ -112,7 +112,7 @@ We welcome contributions! Feel free to open a pull request or submit issues for 
 <h1 align="center">Happy Coding 👨‍💻</h1>
 
 <p align="center">
-  Made with ❤️ by Panagiotis Moschos ([GitHub](https://github.com/pmoschos))
+  Made with ❤️ by Panagiotis Moschos (www.linkedin.com/in/panagiotis-moschos)
 </p>
 
 ---
