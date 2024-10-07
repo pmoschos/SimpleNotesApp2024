@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleNotesApp2024</string>
+    <string name="title_first_part">Note-Ta</string>
+    <string name="title_last_part">king App</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register_here">Register here!</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197844171067",
+    "project_id": "simplenotesapp2024",
+    "storage_bucket": "simplenotesapp2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197844171067:android:86558432745a9fbc939f1e",
+        "android_client_info": {
+          "package_name": "dev.pmoschos.simplenotesapp2024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIsD9_k5Fh0h_kmvqlyhdFVP_FkCVo5xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

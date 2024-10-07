@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffff" /> <!-- Fallback color (can be transparent) -->
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+    <corners android:radius="50dp" /> <!-- Makes the shape circular -->
+</shape>

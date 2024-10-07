@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CreateNoteActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_back_arrow"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <!-- Centered TextView for the title -->
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Note"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="@font/nunito_bold" />
+
+        <TextView
+            android:id="@+id/saveTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_gravity="right"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="@font/nunito_bold"
+            tools:ignore="RtlHardcoded" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/chooseCategoryTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Note category"
+        android:layout_margin="@dimen/_14sdp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/card_dark"
+        android:textSize="@dimen/_14sdp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/category_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/chooseCategoryTV"
+        android:layout_margin="@dimen/_14sdp"
+        android:layout_height="wrap_content" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/note_title_input_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        app:layout_constraintTop_toBottomOf="@id/category_spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="@dimen/_32sdp"
+        android:layout_marginEnd="@dimen/_32sdp"
+        app:layout_constraintWidth_percent="0.9"
+        app:hintTextAppearance="@style/CustomFloatingLabelAppearance"
+        app:endIconMode="clear_text"> <!-- Adds clear icon to clear the text -->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/title_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/nunito_bold"
+            android:padding="@dimen/_8sdp"
+            android:maxLength="20"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/_16sdp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/description_input_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        app:layout_constraintTop_toBottomOf="@id/note_title_input_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="@dimen/_32sdp"
+        android:layout_marginEnd="@dimen/_32sdp"
+        app:layout_constraintWidth_percent="0.9"
+        app:hintTextAppearance="@style/CustomFloatingLabelAppearance"
+        app:endIconMode="clear_text"> <!-- Adds clear icon to clear the text -->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/description_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:minLines="5"
+            android:gravity="top"
+            android:maxLength="150"
+            android:fontFamily="@font/nunito_regular"
+            android:padding="@dimen/_8sdp"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="@dimen/_16sdp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

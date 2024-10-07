@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SimpleNotesApp2024" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="shapeAppearanceSmallComponent">@style/ButtonShapeAppearance</item>
+        <item name="hintTextAppearance">@style/CustomFloatingLabelAppearance</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.SimpleNotesApp2024.MySplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/my_notes</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
+        <item name="postSplashScreenTheme">@style/Theme.SimpleNotesApp2024</item>
+    </style>
+
+    <style name="ButtonShapeAppearance" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">12dp</item> <!-- Ensure this is set correctly -->
+    </style>
+
+    <style name="CustomFloatingLabelAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/_12sdp</item> <!-- Change the floating label size -->
+        <item name="android:textColor">@color/purple</item> <!-- Customize color if needed -->
+    </style>
+
+    <style name="CustomShapeAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="Theme.SimpleNotesApp2024" parent="Base.Theme.SimpleNotesApp2024" />
+</resources>
