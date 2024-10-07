@@ -114,7 +114,3 @@ We welcome contributions! Feel free to open a pull request or submit issues for 
 <p align="center">
   Made with ❤️ by Panagiotis Moschos (www.linkedin.com/in/panagiotis-moschos)
 </p>
-
----
-
-Feel free to replace placeholder links and add screenshots as needed. This README serves as an all-encompassing guide to showcase the application's features, functionality, and setup instructions.
