@@ -1,9 +1,9 @@
 
-# SimpleNotesApp2024 - A Modern Notes Taking Application 📝
+# Modern Notes Taking Application 📝
 
 An intuitive Android application designed to help you organize your thoughts and ideas efficiently. SimpleNotesApp2024 leverages Firebase's capabilities to provide real-time synchronization, cloud storage, and user authentication. This app showcases features like note creation, categorization, marking favorites, and user-friendly settings. All these features are wrapped in a sleek, Material Design-inspired UI to deliver a smooth and satisfying user experience.
 
-## Modern Notes Application 📸
+## Welcome to our Notes App 📸
 
 ![image](https://github.com/user-attachments/assets/bef22c27-af4f-4a4b-af7e-892cee39e59b)
 
