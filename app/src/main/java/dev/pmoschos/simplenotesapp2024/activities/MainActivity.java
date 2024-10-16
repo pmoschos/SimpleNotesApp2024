@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
 
         // If the user is already authenticated, navigate to DashboardActivity
-        if (auth != null) {
+        if (auth.getCurrentUser() != null) {
             Intent intent = new Intent(getApplicationContext(), DashboardActivity.class);
             startActivity(intent);
             // Finish MainActivity to prevent going back to it
